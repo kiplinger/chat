@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+textarea {
+	font-family: 'PT Sans', sans-serif;
+}
+a:link {
+	text-decoration: none;
+	color: blue;
+}
+
+a:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #00ffdd;
+}
+
+a:active {
+	text-decoration: none;
+	color: blue;
+}
+
+.Container {
+	overflow-wrap: break-word;
+	text-shadow: -0.5px 0.5px 1px gray;
+	margin: 10;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid black;
+	border-style: hidden solid hidden solid;
+	border-radius: 12px;
+	width: 700px;
+}
+.Comment {
+	overflow-wrap: break-word;
+	font-weight: bold;
+	margin: 20px;
+}
+ 
+.NameAndDate {
+	overflow-wrap: break-word;
+	margin: 10px;
+}

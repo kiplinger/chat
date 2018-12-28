@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body {
+	font-family: 'Oswald', sans-serif;
+	background-color: #c6ffe6;
+}
+textarea {
+	font-family: 'Oswald', sans-serif;
+	background-color: #e8fff4;
+}
+input{
+	background-color: #e8fff4;
+}
+a:link {
+	text-decoration: none;
+	color: blue;
+}
+
+a:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #00ffdd;
+}
+
+a:active {
+	text-decoration: none;
+	color: blue;
+}
+
+.Container {
+	overflow-wrap: break-word;
+	margin: 10;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px solid black;
+	border-style: solid solid solid solid;
+	border-radius: 6px;
+	width: 400px;
+}
+.Comment {
+	overflow-wrap: break-word;
+	font-weight: bold;
+	margin: 20px;
+}
+ 
+.NameAndDate {
+	border: 2px solid gray;
+	border-radius: 1px;
+	overflow-wrap: break-word;
+	margin: 10px;
+	border-style: hidden hidden solid hidden;
+}
